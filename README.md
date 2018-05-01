@@ -1,8 +1,22 @@
 # meeting 紀錄
 
+## 107.04.26
++ tf tree, tf的欄位
++ 只需要寫yanl不需要pgm
++ laser scanner圖片截錯
++ 機器人重心，輪胎加大，穩定
++ 雷射打的距離調小
++ 迷宮牆壁距離加大
++ 轉太大力，速度太小
++ topic的更新速度
++ 接相機再去訂閱gazebo裡面的相機
++ 網頁訂閱barcode
++ plugin跟nodelet
++ zbar workspace的相依套件
+
 ## 107.04.19
 + gazebo uvc cam
-+ qr旋轉讀取
++ [x] qr旋轉讀取
 + robot state joint state 到 tf 流程
 + navi stack圖的點線面，每個方塊的說明
 + world 不是 map，機器人掃描後才是map

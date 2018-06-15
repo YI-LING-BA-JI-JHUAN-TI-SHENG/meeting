@@ -1,5 +1,15 @@
 # meeting 紀錄
 
+## 107.06.07
++ 機器人換位置時要navigatuon要改什麼檔案
++ 不換位置出現錯誤重新跑gmapping就可以解決不用改位置
++ 中央控制完成
++ 教學：
+    + rosbridge
+    + navigation
+    + 訂閱發佈的用法src
+    + master用bridge溝通
+
 ## 107.05.24
 + 畫地圖
 + 虛實整合的誤差

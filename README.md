@@ -1,5 +1,35 @@
 # meeting 紀錄
 
+## 107.06.21
++ frame
+  + 預設時狀態map,odom,footprint同一點
+  + 初始時狀態odom相對map
+  + 移動後狀態footprint相對odom
+  + odom,map初始化後都固定不動
+  + odom是機器人初始位置宣告，所以可以相對map移動
+  + 移動後要看footprint
+  + navigation時會看footprint自動回推到相對map
+  + 四大frame都會存在，不用amcl時odom不會接上map
+  + footprint應該接odom跟map
+  + 但有限制，避免錯亂
+  + 所以footprint-\>odom-\>map
+  + joint有斷開是合理的
+  + 利於省略中間的機構或材料
+  + same frame
+  + child的origin參考同frame的joint
++ model robot作其他投影片
++ material name gazebo 修改測試
++ 投影片修改: xacro寫法，不是urdf
++ 執行時一定要有urdf，所以macro會自動轉換成urdf
++ [relative mesh](https://answers.ros.org/question/263308/is-it-possible-to-use-relative-path-for-mesh-filename-in-urdf/)
++ navigation
+  + sensor transforms 是為了要知道sensor位置
+  + 寫出客製化的部分
++ goal reach的判斷方式
++ 投影片修改: map不等於world file,也不等於map frame
++ 用多台車寫成一台車
++ [x] 投影片修改: .js, .min.js差別
+
 ## 107.06.07
 + 機器人換位置時要navigatuon要改什麼檔案
 + 不換位置出現錯誤重新跑gmapping就可以解決不用改位置

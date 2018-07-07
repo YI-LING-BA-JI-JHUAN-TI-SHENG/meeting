@@ -1,5 +1,11 @@
 # meeting 紀錄
 
+## 107.07.05
++ stage
++ fake location
++ navigation\_multi (github)
+
+
 ## 107.06.21
 + frame
   + 預設時狀態map,odom,footprint同一點
